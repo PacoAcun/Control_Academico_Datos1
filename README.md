@@ -1,5 +1,27 @@
 # Proyecto de Control Académico
 
+## Crear contenedor de docker
+
+En terminal: docker-compose up --build
+
+## Conexion en mysql workbench
+
+Username: root
+Password: controlacademico
+
+## Ejecutar contenedor de docker
+
+Abrir Docker
+En terminal: docker-compose up
+
+## Cerrar contenedor de docker
+
+Abrir Docker
+En terminal: docker-compose down
+
+
+
+
 ## 1. Descripción General
 
 El proyecto consiste en poblar y consultar las tablas creadas basadas en el diagrama entidad relación generado del enunciado.

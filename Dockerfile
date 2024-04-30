@@ -1,6 +1,5 @@
-FROM mcr.microsoft.com/mssql/server:2019-latest
-ENV ACCEPT_EULA=Y
-ENV SA_PASSWORD=controlacademico
-COPY ./db /
-WORKDIR /db
-CMD /bin/bash ./entrypoint.sh
+FROM mysql:8.0
+
+WORKDIR /docker-entrypoint-initdb.d
+
+COPY ./sql-scripts/ /docker-entrypoint-initdb.d/

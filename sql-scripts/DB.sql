@@ -1,0 +1,10 @@
+CREATE DATABASE ControlAcademico;
+
+USE ControlAcademico;
+
+CREATE TABLE UNIVERSIDAD (
+    Nombre VARCHAR(255) PRIMARY KEY,
+    Direccion VARCHAR(255) NOT NULL,
+    Correo VARCHAR(255) NOT NULL,
+    Telefono VARCHAR(255) NOT NULL
+);
