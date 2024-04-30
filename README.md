@@ -16,7 +16,7 @@ En terminal: docker-compose up
 
 ## Cerrar contenedor de docker
 
-Abrir Docker
+Cerrar Docker
 En terminal: docker-compose down
 
 
